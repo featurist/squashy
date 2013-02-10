@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+require('../src/squashy').squash(process.argv[2], function(err, body) {
+    console.log (err || body);
+});

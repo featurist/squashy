@@ -1,0 +1,28 @@
+{
+  "name": "squashy",
+  "version": "0.0.1",
+  "description": "Packs HTML, inlining javascripts and stylesheets",
+  "author": "@joshski",
+  "main": "src/squashy.js",
+  "scripts": {
+    "test": "pogo -c src/squashy.pogo && mocha spec/squashy_spec.pogo"
+  },
+  "bin": {
+    "squashy": "bin/squashy"  
+  },
+  "dependencies": {
+    "async": "~0.2.4",
+    "httpism": "0.0.2"
+  },
+  "devDependencies": {
+    "pogo": "~0.3.0",
+    "mocha": "~1.8.1",
+    "should": "~1.2.1",
+    "express": "~3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/featurist/squashy.git"
+  },
+  "license": "BSD"
+}
