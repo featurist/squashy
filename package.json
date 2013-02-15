@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "async": "~0.2.4",
-    "httpism": "0.0.2"
+    "httpism": "0.0.3"
   },
   "devDependencies": {
     "pogo": "~0.3.0",
