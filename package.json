@@ -1,6 +1,6 @@
 {
   "name": "squashy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Packs HTML, inlining javascripts and stylesheets",
   "author": "@joshski",
   "main": "src/squashy.js",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "async": "~0.2.4",
-    "httpism": "0.0.2"
+    "httpism": "0.0.3"
   },
   "devDependencies": {
     "pogo": "~0.3.0",
